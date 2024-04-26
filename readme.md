@@ -1,5 +1,5 @@
 # 下載AIX上的檔案
-<pre style="color:#000000;background:#ffffff;">
+```java
 public class GetAixFile {
     private static final Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     private final int PORT = 22;
@@ -59,9 +59,9 @@ public class GetAixFile {
         }
     }
 }
-</pre>
+```
 ## 執行程式
-<pre style="color:#000000;background:#ffffff;">>
+```java
 public class DoGetAixFile {
     public static void main(String[] args) {
         GetAixFile gf = new GetAixFile();
@@ -75,4 +75,4 @@ public class DoGetAixFile {
         gf.getAixFile(map);
     }
 }
-</pre>
+```
